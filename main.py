@@ -66,7 +66,6 @@ def bubble_sort_tab(tab, table_length):
         print_tab(tab, table_length)
         swap = 0
         for i in range(0, table_length-1):
-            #print(tab[i], tab[i+1])
             if tab[i] > tab[i+1]:
                 tmp = tab[i]
                 tab[i] = tab[i+1]
